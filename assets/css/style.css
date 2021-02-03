@@ -5,6 +5,7 @@
 
 header, nav {
     text-align: center;
+    text-decoration: underline;
 }
 
 nav {
@@ -20,12 +21,18 @@ main{
 
 main h2 {
     text-align: center;
+    text-decoration: underline;
 }
 
 aside img {
     max-width: 500px;
     max-height: 500px;
     margin-right: 200px;
+}
+
+#My-Work {
+    text-align: center;
+    text-decoration: underline;
 }
 
 #My-Work img {
@@ -36,14 +43,12 @@ aside img {
 #My-Résumé {
     text-align: center;
     padding: 1%;
-}
-
-#My-Work {
-    text-align: center;
+    text-decoration: underline;
 }
 
 #My-Contact-Info {
     text-align: center;
+    text-decoration: underline;
 }
 
 footer {
