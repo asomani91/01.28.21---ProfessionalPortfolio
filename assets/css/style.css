@@ -5,6 +5,10 @@
     margin: 0;
 }
 
+body {
+    display: inline-block;
+}
+
 header, nav {
     text-align: center;
     padding: 1%;
@@ -14,10 +18,10 @@ nav {
     word-spacing: 1.25px ;
 }
 
-main {
+main{
     display: inline-block;
     float: left;
-    width: 50%;
+    width: 100%;
     padding: 2%;
     margin-right: 50%;
     background-color: darkblue; 
@@ -29,9 +33,33 @@ main h2 {
 }
 
 aside img {
+    display: inline-block
     display: flex;
     max-width: 500px;
     max-height: 500px;
     margin-right: 200px;
-    float: right;
+}
+
+#My-Work img {
+    display: inline-block
+    display: flex;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+#My-Résumé {
+    text-align: center;
+    padding: 1%;
+}
+
+#My-Work {
+    text-align: center;
+}
+
+#My-Contact-Info {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
 }
