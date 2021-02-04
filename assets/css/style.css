@@ -24,10 +24,12 @@ main h2 {
     text-decoration: underline;
 }
 
-aside img {
+main img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
     max-width: 500px;
     max-height: 500px;
-    margin-right: 200px;
 }
 
 #My-Work {
